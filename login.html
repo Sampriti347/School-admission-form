@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name=""viewport" content=""width=device-width, initial scale="1">
+        <title>LES.LOGIN</title>
+        <link rel = "stylesheet" href="style.css"/> 
+        <style>
+            Body{font-family:'Times New Roman', Times, serif;text-align: center; background-color:aqua }
+            button{background-color:rgb(183, 0, 255); width:10%; color:white; padding: 15px; margin: 10px 0px; border-color: black; cursor: pointer;}
+            form{border:3px solid}
+            input[type=text],input[type=password]{width=100%; margin:8px 0; padding:12px 20px; display:inline-block;border:2px solid green; box-sizing:border-box;}
+            button.hover{opacity:0.7;}
+            .cancbtn{width:auto; padding:10px 18px; margin:10px 5px;}
+            .container{padding:25px; background-color:lightblue;}
+        </style>
+    </head>
+    <body>
+        <center><h1>Laurence Echard School</h1></center>
+        <center><h3>Student Login Form</h3></center>
+        <form>
+            <div class="container">
+                <label>Username:</label>
+                <input type="text" placeholder="Enter Username" name="username" required><br>
+                <label>Password:</label>
+                <input type="password" placeholder="Enter Password" name="password" required><br>
+                <input type="checkbox" checked="checked">Remember me <br>
+                <a href="day2 project s4.html"><input type="button" value="Submit" style="width: 10%; background-color:rgb(183, 0, 255);border-color: black; color:white; padding: 15px; margin: 10px 0px"></a><br>
+                <button type="button" class="cancelbtn">Cancel</button><br>
+                Forgot<a href="#">password?</a>
+            </div>
+        </form>
+    </body>
+</html>
